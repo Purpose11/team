@@ -1,0 +1,104 @@
+.head {
+    width: 330px;
+    height:100px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    background-color: blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.body {
+    width: 330px;
+    height: auto;
+    border: solid #eff0f7;
+    border-radius: 20px;
+    background-color:white;
+    margin: 20px;
+    
+}
+
+.mypic {
+    margin-top: 75px;
+    border:3px solid white;
+    border-radius: 80px;
+    outline: 3px solid blue;
+}
+
+
+#details {
+    margin-top: 55px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+    text-align: center;
+}
+
+#details h2, h4 {
+    margin: 2px;
+}
+
+#occupation {
+    color: red;
+}
+
+
+p {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+.skills p {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.info p {
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.gender {
+    padding-right: 20px;
+}
+
+
+hr {
+    width: 80%;
+    color: blue;
+    border-style:double;
+}
+
+.interations {
+    display: flex;
+    justify-content: center;
+}
+
+input {
+    height: 25px;
+    color: white;
+    background-color: blue;
+    border: 0;
+    border-radius: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-weight: bold;
+}
+
+
+.handles {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+img {
+    border: 0px solid;
+    border-radius: 20px;
+    margin-right: 10px;
+}
+
+
