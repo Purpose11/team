@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid Assignment</title>
+</head>
+<body>
+  <h1>A simple Webpage Layout with three Sections (assignment)</h1>
+  <div class="container">
+    <div class="header">The Header</div>
+    <div class="content1">The First Content Area<br>Speak about one of the product, Show more details covering the product</div>
+    <div class="content2">The Second Content Area<br>Speak about one of the product, Show more details covering the product</div>
+    <div class="footer">The Footer</div>
+  </div>  
+</body>
+<style>
+  body{
+    background-color: aliceblue;
+    place-items: center;
+  }
+
+  h1{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    font-size: 30px;
+  }
+
+  .container{
+    border: 2px solid aquamarine;
+    background-color: white;
+    border-radius: 5px;
+    width: fit-content;
+    height: fit-content;
+    padding: 10px;
+    display: grid;
+    gap: 10px;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-areas: 'head head' 'body1 body2' 'foot foot';
+  }
+
+  .header{
+    border: 1px solid aquamarine;
+    border-radius: 5px;
+    background-color:aquamarine;
+    font-size: 20px;
+	  font-weight: bold;
+	  text-align: center;
+    padding-top: 25px;
+    grid-area: head;
+  }
+
+  .content1{
+    border: 1px solid rgb(228, 228, 228);
+    border-radius: 5px;
+    background-color:rgb(228, 228, 228);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font size: 16px;
+	  line-height: 1.5; 
+    padding: 10px;
+    grid-area: body1;
+  }
+
+  .content2{
+    border: 1px solid rgb(228, 228, 228);
+    border-radius: 5px;
+    background-color:rgb(228, 228, 228);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font size: 16px;
+	  line-height: 1.5; 
+    padding: 10px;
+    grid-area: body2;
+  }
+
+  .footer{
+    border: 1px solid aquamarine;
+    border-radius: 5px;
+    background-color:aquamarine;
+    font size: 14px;
+    text-align: center;
+    font-style: italic; 
+    padding-top: 25px;
+    grid-area: foot;
+  }
+  
+</style>
+</html>
